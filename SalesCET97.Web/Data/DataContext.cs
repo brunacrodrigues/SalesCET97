@@ -9,7 +9,9 @@ namespace SalesCET97.Web.Data
         {
             
         }
+        public DbSet<Category> Categories { get; set; }
 
         public DbSet<Country> Countries { get; set; }
+
     }
 }
